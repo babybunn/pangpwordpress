@@ -18,8 +18,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/all.min.css" rel="stylesheet" />
 <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="stylesheet/less" href="<?php echo get_template_directory_uri(); ?>/css/main.less" type="text/css">

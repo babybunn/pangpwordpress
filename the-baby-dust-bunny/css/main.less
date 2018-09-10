@@ -311,6 +311,10 @@ segment styles
 /****************************Overwrite CSS****************************/
 .element(@baseColor);
 
+a {
+	transition: all .3s;
+}
+
 .accent{
 	color: @baseColor !important;
 }
@@ -341,8 +345,16 @@ segment styles
 	text-transform: uppercase;
 }
 
+.font-45 {
+	font-size: 45px;
+}
+
 .font-14 {
 	font-size: 14px;
+}
+
+.line-height-small {
+	line-height:1.2;
 }
 /****************************Header ****************************/
 header nav[role="navigation"] .nav {
@@ -504,6 +516,7 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 /* = Footer
 ----------------------------------------------- */
 .main-footer {
+	background: url('../images/footer_bg.png') no-repeat scroll center center / cover;
 	.container {
 		max-width: 1600px;
 	}
@@ -515,6 +528,7 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 			li.nav-link {
 				padding:0px 10px;
 				margin-bottom: 5px;
+				line-height: 1;
 				a {
 					color:#f5f5f5;
 					font-size: 14px;
@@ -580,8 +594,126 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 			}
 		}
 	}
+	.footer-subscribe {
+		margin-top:30px;
+		form input {
+			background-color:  #140c39;
+			border-color:  rgba(95, 93, 128,0.25);
+			color:  #5f5d80;
+			margin-bottom: 15px;
+		}
+		form .btn[type="submit"] {
+			background-color: #83007d;
+			border:0;
+			background-image: -moz-linear-gradient(top, #83007d 0%, #660061 47%, #4e004a 100%);
+			background-image: -webkit-linear-gradient(top, #83007d 0%,#660061 47%,#4e004a 100%);
+			background-image: linear-gradient(to bottom, #83007d 0%,#660061 47%,#4e004a 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83007d', endColorstr='#4e004a',GradientType=0 );
+			background-size: 200% auto;
+			background-position: center center;
+			width:100%;
+			max-width: 102px;
+		    padding: 5px 10px;
+		    text-transform: uppercase;
+		    font-size: 14px;
+		    font-weight: 700;
+		    transition: all .3s;
+		    &:hover, &:active, &:focus {
+				background-position: bottom center;
+		    }
+		}
+	}
 }
 
+.bottom-footer {
+	.container {
+		max-width: 1600px;
+	}
+	.row {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+
+/* = Homepage Banner
+----------------------------------------------- */
+
+.hp-banner {
+	position:relative;
+	height: 100vh;
+	min-height: 768px;
+	overflow: hidden;
+	background:url('../images/bg_intro.png') repeat scroll top left / auto;
+}
+
+.hp-banner .intro-video {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -50;
+    transform: translate(-50%,-50%);
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.hp-banner h1 {
+	font-size: 45px;
+	color:#ffffff;
+}
+
+.hp-banner p {
+	color:#ffffff;
+	font-size: 24px;
+}
+
+.text-banner {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+	display:  -webkit-box;
+	display:  -ms-flexbox;
+	display:  -webkit-flex;
+	display:  flex;
+	-webkit-box-align:  center;
+	-ms-flex-align:  center;
+	align-items:  center;
+	-webkit-box-pack:  center;
+	-ms-flex-pack:  center;
+	justify-content:  center;
+}
+
+.text-banner a {
+	text-decoration: underline;
+}
+
+.scroll-down {
+	background: url('../images/arrow_up.png') no-repeat bottom center scroll / auto;
+    position: relative;
+    z-index: 9;
+    background-color: transparent;
+    height: 48px;
+    margin-top: -48px;
+}
+
+.scroll-down .scroll-down-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    img {
+    	display:block;
+    	max-width: 100%;
+    	height:auto;
+    	margin:0 auto;
+    }
+}
+
+.bg-default {
+	background: url('../images/bg_default.jpg') no-repeat scroll top center / cover;
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
 

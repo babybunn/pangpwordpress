@@ -123,20 +123,29 @@
 								</div>
 							</div>
 							<div class="col-md-3">
-								<div class="footer-subscibe">
+								<div class="footer-subscribe">
 									<h3 class="uppercase font-14 accent4">Subscribe</h3>
 									<p class="font-14 accent3">Subscribe to our newsletter to be updated about latest news and interesting offers:</p>
+									<form action="/" method="GET" class="form-footer-subscribe">
+										<input type="email" class="form-control" placeholder="Email ID">
+										<button class="btn btn-primary" type="submit">Submit</button>
+									</form>
 								</div>
-								<form action="/" method="GET" class="form-footer-subscribe">
-									<input type="email" class="form-control">
-									<button class="btn btn-primary" type="submit">Submit</button>
-								</form>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section class="bottom-footer">
-					
+				<section class="bottom-footer segment segment1 space-small">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								© 2016 <strong>Jabu Events</strong><span class="line-bottom-footer">|</span>Entertainment and event management
+							</div>
+							<div class="col-md-4">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/Ahead_logo.png" alt="Ahead Design" class="ahead-logo float-right">
+							</div>
+						</div>
+					</div>
 				</section>
 			</footer>
 		</div><!-- #content -->
