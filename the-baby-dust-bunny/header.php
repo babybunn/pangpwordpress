@@ -18,7 +18,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<!-- <link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" /> -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/all.min.css" rel="stylesheet" />
@@ -48,7 +49,7 @@
 							<div class="col-md-8">
 								<div class="navigation-wrapper">
 									<nav role="navigation">
-										<ul class="nav navbar float-right">
+										<ul class="nav navbar-nav float-right">
 											<li class="nav-link active"><a href="#">Home</a></li>
 											<li class="nav-link"><a href="#">Performers</a></li>
 											<li class="nav-link"><a href="#">Events</a></li>
@@ -62,7 +63,7 @@
 							<div class="col-md-2 d-sm-flex d-md-flex d-lg-flex align-items-center justify-content-center">
 								<div class="menu-language">
 									<nav role="navigation">
-										<ul class="nav navbar">
+										<ul class="nav navbar-nav">
 											<li class="dropdown nav-link active">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-hover="For MSPs ">EN</span><b class="caret"></b></a>
 												<ul class="dropdown-menu">

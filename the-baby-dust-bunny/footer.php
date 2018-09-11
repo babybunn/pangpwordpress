@@ -21,7 +21,7 @@
 							<div class="col-md-3">
 								<a href="/" class="footer-logo"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/je_logo.png"></a>
 								<div class="footer-navigation">
-									<ul class="nav footer-nav-primary">
+									<ul class="nav navbar-nav footer-nav-primary">
 										<li class="nav-link"><a href="#">About Us</a></li>
 										<li class="nav-link"><a href="#">News</a></li>
 										<li class="nav-link"><a href="#">Artists</a></li>
@@ -29,11 +29,11 @@
 										<li class="nav-link"><a href="#">Services</a></li>
 									</ul>
 
-									<ul class="nav footer-nav-term">
+									<ul class="nav navbar-nav footer-nav-term">
 										<li class="nav-link"><a href="#">Terms & Conditions</a></li>
 									</ul>
 
-									<ul class="nav footer-nav-secondary">
+									<ul class="nav navbar-nav footer-nav-secondary">
 										<li class="nav-link"><a href="#">Siolim House</a></li>
 										<li class="nav-link"><a href="#">Jabudays Cruises</a></li>
 									</ul>
@@ -44,7 +44,7 @@
 									<ul class="fa-ul">
 										<li><span class="fa-li"><span class="icon-base"><i class="fa fa-mobile"></i></span></span><a href="tel:+66856665504">+66 85 666 5504</a></li>
 										<li><span class="fa-li"><span class="icon-base"><i class="fa fa-envelope-o"></i></span></span><a href="mailto:info@jabuevents.com">info@jabuevents.com</a></li>
-										<li><span class="fa-li"><span class="icon-base"><i class="fa fa-map-marker"></i></span></span>Bangkok, Phuket, Koh Samui, Hua Hin, Pattaya, New Delhi, Mumbai, Goa, Singapore, Dubai, Madrid, Rome</li>
+										<li class="font-italic"><span class="fa-li"><span class="icon-base"><i class="fa fa-map-marker"></i></span></span>Bangkok, Phuket, Koh Samui, Hua Hin, Pattaya, New Delhi, Mumbai, Goa, Singapore, Dubai, Madrid, Rome</li>
 										<li><p class="uppercase accent font-14"><strong>Be our artist</strong></p></li>
 									</ul>
 								</div>
