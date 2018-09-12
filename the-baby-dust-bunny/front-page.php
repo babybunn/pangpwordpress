@@ -34,7 +34,7 @@ get_header();
 					<div class="col-md-12">
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane fade in active" id="categories">
-								<div class="row">
+								<div class="row-condensed">
 									<div class="col-md-3 col-sm-6">
 										<a href="#">
 											<div class="cat-thumb">
@@ -158,7 +158,7 @@ get_header();
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane fade" id="events">
-								<div class="row">
+								<div class="row-condensed">
 									<div class="col-md-3 col-sm-6">
 										<a href="#">
 											<div class="cat-thumb">
@@ -411,6 +411,24 @@ get_header();
 							</div>
 						</div>
 						<p class="uppercase font-14"><a href="#" class="font-underline"><strong>All news</strong></a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="scroll-up"></div>
+
+		<section class="segment segment2 space-huge hp-partners">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/744px-Renaissance_Hotels_Logo.png" class="hp-img-partners">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/BMW_logo.png" class="hp-img-partners">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Marriott_International_Logo.png" class="hp-img-partners">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Thai_Airways.png" class="hp-img-partners">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/RADISSON-LOGO.png" class="hp-img-partners">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/vh1.png" class="hp-img-partners">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/Amazing_Thailand_logo.png" class="hp-img-partners">
 					</div>
 				</div>
 			</div>
