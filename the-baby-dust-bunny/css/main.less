@@ -177,6 +177,9 @@ strong {
 
 }
 
+a {
+	text-decoration: underline;
+}
 
 body, p, .gform_body .gfield input, .gform_body .gfield textarea, .gform_body .gfield select{
 	font-size: @pixelfont;
@@ -290,8 +293,8 @@ segment styles
 }
 
 [class~="space-medium"][class*="segment"]{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 [class~="space-large"][class*="segment"]{
@@ -1340,6 +1343,31 @@ segment styles
 	margin-bottom: 10px;
 }
 
+.row-condensed:before,
+.row-condensed:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.row-condensed:after {
+  clear: both;
+}
+.row-condensed:before,
+.row-condensed:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.row-condensed:after {
+  clear: both;
+}
+
 /****************************Overwrite CSS****************************/
 .element(@baseColor);
 
@@ -1365,6 +1393,7 @@ a {
 
 .btn-primary{
 	.btn;
+	text-decoration: none;
 	border-radius: 5px;
 	background-color: #ff028f;
 	background-image: rgb(255,6,172);
@@ -1408,6 +1437,10 @@ a {
 	font-size: 24px;
 }
 
+.font-18 {
+	font-size:18px;
+}
+
 .font-14 {
 	font-size: 14px;
 }
@@ -1420,6 +1453,9 @@ a {
 	font-style: italic;
 }
 
+.margin-0 {
+	margin:0;
+}
 /****************************Header ****************************/
 header nav[role="navigation"] .nav {
 	margin: 0px 0px 0px !important;
@@ -1524,6 +1560,14 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 	}
 }
 
+.main-header {
+	position: absolute;
+	width:100%;
+	left:0;
+	top:0;
+	z-index: 1059;
+    background: transparent;
+}
 .main-header .container {
 	max-width: 1600px;
 	width: 100%;
@@ -1797,6 +1841,16 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 	background: url('../images/bg_default.jpg') no-repeat scroll top center / cover;
 }
 
+.bg-default-inner {
+	background: url('../images/bg_default_innerpage.png') no-repeat scroll bottom center / cover;
+}
+
+.bg-gradient {
+	height: 100px;
+	margin-top: -100px;
+	background: url('../images/bg_gradient.png') repeat-x bottom left scroll / auto;
+}
+
 .cat-thumb img {
 	max-width: 100%;
 	height: auto;
@@ -2052,10 +2106,97 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 }
 
 
-/* ============== About Us =============== */
+/* ============== Innerpage =============== */
 
 .bg-innerpage-banner {
-	background: url('../images/bg_main_banner.png') no-repeat scroll center center / cover ;
+	background: url('../images/bg_main_banner.png') no-repeat scroll bottom center / cover ;
+}
+
+.main-content-overlay {
+	background-color:  rgba(10, 10, 46, 0.9);
+	display: table;
+	width:100%;
+    padding: 20px 5px;
+    position:relative;
+}
+
+.main-content-overlay.last:after {
+	content: '';
+	display: block;
+	background: url('../images/scroll_down_small.png') no-repeat top center scroll / auto;
+	position: absolute;
+	z-index: 9;
+	background-color: transparent;
+	height: 48px;
+	margin-bottom: -48px;
+	bottom:0;
+	left:0;
+	width: 100%;
+}
+
+.page-title {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px;
+	&:after {
+		content: '';
+		width: 60px;
+		height: 3px;
+		background-color:  #ff028f;
+		margin:10px auto;
+		display: block;
+	}
+}
+
+.page-description {
+	font-size:18px;
+}
+
+.right-content {
+    padding: 30px;
+}
+
+.related-link {
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.related-link a {
+	color:#fff;
+}
+
+.blog-section {
+	margin-top: 40px;
+}
+
+.blog-section .blogfeed-wrapper {
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.blog-section.blog-style-a .blogfeed-wrapper article {
+	clear:none;
+	img {
+		width:100%;
+	}
+}
+
+.blog-section.blog-style-a .additional-blog {
+	margin-top: 30px;
+}
+
+.artcle-body {
+    background-color: rgba(10, 10, 46, 0.9);
+    padding: 10px;
+    min-height: 130px;
+}
+
+
+/* ============ Artists =============== */
+
+.bg_banner-artists {
+	background: url('../images/bg_banner_artists.png') no-repeat scroll center center / cover ;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
