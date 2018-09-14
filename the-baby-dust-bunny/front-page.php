@@ -11,7 +11,7 @@ get_header();
 			<div class="text-banner text-center">
 				<div class="container">
 					<div class="col-md-12">
-						<h1 class="uppercase line-height-small">Welcome <br>to Jabu Events</h1>
+						<h1 class="uppercase line-height-small"><strong>Welcome <br>to Jabu Events</strong></h1>
 						<p><a href="#">100+ shows</a> for your <a href="#">bespoke event</a></p>
 					</div>
 				</div>
@@ -359,7 +359,7 @@ get_header();
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
-						<h3 class="font-24 uppercase line-left-heading">WE are Thailand’s <br class="visible-lg">premier event company</h3>
+						<h3 class="font-24 uppercase line-left-heading"><strong>WE are Thailand’s <br class="visible-lg">premier event company</strong></h3>
 						<p>To respond to a demanding increase of artistic performances in the events sector, this site presents you Jabuevents in which they can discover a selection of the best international artists in their respective arts. We have created a search engine (category <a href="#">All Entertainers"</a>) allowing you to find artists who are looking for their event as a set of keywords. Either poetry, drama, joy and adrenaline, emotion they convey our artists make their guests were mindful of your event forever!</p>
 						<div class="button-group-blog">
 							<ul class="list-inline list-unstyled">

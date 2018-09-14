@@ -38,13 +38,13 @@ get_header();
 					<div class="main-content-overlay related-link">
 						<div class="row-condensed">
 							<div class="col-md-4 text-center">
-								<h3 class="font-18 uppercase"><a href="#">More than 500 <br class="visible-lg">artists</a></h3>
+								<h3 class="font-18 uppercase"><a href="#"><strong>More than 500 <br class="visible-lg">artists</strong></a></h3>
 							</div>
 							<div class="col-md-4 text-center">
-								<h3 class="font-18 uppercase"><a href="#">Something about <br class="visible-lg">events</a></h3>
+								<h3 class="font-18 uppercase"><a href="#"><strong>Something about <br class="visible-lg">events</strong></a></h3>
 							</div>
 							<div class="col-md-4 text-center">
-								<h3 class="font-18 uppercase"><a href="#">Something <br class="visible-lg">about Services</a></h3>
+								<h3 class="font-18 uppercase"><a href="#"><strong>Something <br class="visible-lg">about Services</strong></a></h3>
 							</div>
 						</div>
 					</div>
@@ -60,7 +60,7 @@ get_header();
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_01_style_a.png" alt="" class="img-responsive"></a>
 									</figure>
 									<div class="artcle-body">
-										<h3><a href="#">Robots Are Taking Over The Entertainment World!</a></h3>
+										<h3><a href="#"><strong>Robots Are Taking Over The Entertainment World!</strong></a></h3>
 										<footer><span class="date">19 March 2016</span></footer>
 									</div>
 								</article>
@@ -69,7 +69,7 @@ get_header();
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_02_style_a.png" alt="" class="img-responsive"></a>
 									</figure>
 									<div class="artcle-body">
-										<h3><a href="#">Corporate Event Destination Guide: The Canary Islands vs. Balearic Islands</a></h3>
+										<h3><a href="#"><strong>Corporate Event Destination Guide: The Canary Islands vs. Balearic Islands</strong></a></h3>
 										<footer><span class="date">18 March 2016</span></footer>
 									</div>
 								</article>
@@ -78,7 +78,7 @@ get_header();
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_03_style_a.png" alt="" class="img-responsive"></a>
 									</figure>
 									<div class="artcle-body">
-										<h3><a href="#">Celebrating 50 Years of The Sound of Music</a></h3>
+										<h3><a href="#"><strong>Celebrating 50 Years of The Sound of Music</strong></a></h3>
 										<footer><span class="date">16 March 2016</span></footer>
 									</div>
 								</article>
@@ -87,7 +87,7 @@ get_header();
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_04_style_a.png" alt="" class="img-responsive"></a>
 									</figure>
 									<div class="artcle-body">
-										<h3><a href="#">French Corporate IPad Magician @ Paris</a></h3>
+										<h3><a href="#"><strong>French Corporate IPad Magician @ Paris</strong></a></h3>
 										<footer><span class="date">12 March 2016</span></footer>
 									</div>
 								</article>
