@@ -25,6 +25,9 @@
 <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/all.min.css" rel="stylesheet" />
 <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="stylesheet/less" href="<?php echo get_template_directory_uri(); ?>/css/main.less" type="text/css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/OwlCarousel2/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/OwlCarousel2/dist/assets/owl.theme.default.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/js/OwlCarousel2/dist/owl.carousel.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
