@@ -124,7 +124,7 @@
 							</div>
 							<div class="col-md-3">
 								<div class="footer-subscribe">
-									<h3 class="uppercase font-14 accent4">Subscribe</h3>
+									<h3 class="uppercase font-14 accent4"><strong>Subscribe</strong></h3>
 									<p class="font-14 accent3">Subscribe to our newsletter to be updated about latest news and interesting offers:</p>
 									<form action="/" method="GET" class="form-footer-subscribe">
 										<input type="email" class="form-control" placeholder="Email ID">

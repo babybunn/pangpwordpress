@@ -35,6 +35,10 @@
     less.watch(); //less start
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
+<link href="<?php echo get_template_directory_uri(); ?>/js/ninjaslider/5/ninja-slider.css" rel="stylesheet" type="text/css" />
+<!--ninjaVideoPlugin.js is required only when the slider contains video or audio.-->
+<script src="<?php echo get_template_directory_uri(); ?>/js/ninjaslider/5/ninjaVideoPlugin.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/ninjaslider/5/ninja-slider.js" type="text/javascript"></script>
 <?php wp_head(); ?>
 </head>
 
