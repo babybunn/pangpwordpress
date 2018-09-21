@@ -24,9 +24,48 @@ get_header();
 						<div class="row-condensed">
 							<div class="col-md-6">
 								<div class="event-video-wrapper">
-									<div class="video-navigation">
-										
-									</div>
+									<!--start-->
+									<div id="ninja-slider">
+										<div class="slider-inner">
+											<ul>
+												<li>
+													<div class="video">
+														<iframe src="https://www.youtube.com/embed/OCtdn-w9faE?enablejsapi=1&start=0&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" wmode="Opaque" frameborder="0" allowfullscreen></iframe>
+													</div>
+													<a class="ns-img" href="https://img.youtube.com/vi/OCtdn-w9faE/hqdefault.jpg"></a>
+													<div class="video-playbutton-layer"></div>
+												</li>
+												<li>
+													<div class="video">
+														<iframe src="https://www.youtube.com/embed/nIbbF_eB9jQ?enablejsapi=1&start=0&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" wmode="Opaque" frameborder="0" allowfullscreen></iframe>
+													</div>
+													<a class="ns-img" href="ihttps://img.youtube.com/vi/nIbbF_eB9jQ/hqdefault.jpg"></a>
+													<div class="video-playbutton-layer"></div>
+												</li>
+												<li>
+													<div class="video">
+														<iframe src="https://www.youtube.com/embed/Q_6BCsCJ_z0?enablejsapi=1&start=0&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" wmode="Opaque" frameborder="0" allowfullscreen></iframe>
+													</div>
+													<a class="ns-img" href="https://img.youtube.com/vi/Q_6BCsCJ_z0/hqdefault.jpg"></a>
+													<div class="video-playbutton-layer"></div>
+												</li>
+												<li>
+													<div class="video">
+														<iframe src="https://www.youtube.com/embed/oSl9BisFROQ?enablejsapi=1&start=0&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" wmode="Opaque" frameborder="0" allowfullscreen></iframe>
+													</div>
+													<a class="ns-img" href="https://img.youtube.com/vi/oSl9BisFROQ/hqdefault.jpg"></a>
+													<div class="video-playbutton-layer"></div>
+												</li>
+											</ul>
+										</div>
+								<div id="thumbs">
+									<span onclick="nslider.playVideo(0)"><img src="https://img.youtube.com/vi/OCtdn-w9faE/hqdefault.jpg" /><span class="playvideo">AUTO</span></span>
+									<span onclick="nslider.playVideo(1)"><img src="https://img.youtube.com/vi/nIbbF_eB9jQ/hqdefault.jpg" /><span class="playvideo">AUTO</span></span>
+									<span onclick="nslider.playVideo(2)"><img src="https://img.youtube.com/vi/Q_6BCsCJ_z0/hqdefault.jpg" /><span class="playvideo">AUTO</span></span>
+									<span onclick="nslider.playVideo(3)"><img src="https://img.youtube.com/vi/oSl9BisFROQ/hqdefault.jpg" /><span class="playvideo">AUTO</span></span>
+								</div>
+							</div>
+							<!--end-->
 								</div>
 							</div>
 							<div class="col-md-6">

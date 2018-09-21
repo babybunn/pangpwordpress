@@ -24,7 +24,17 @@ get_header();
 					<div class="main-content-overlay">
 						<div class="row-condensed">
 							<div class="col-md-6">
-								
+								<div class="row-condensed">
+									<div class="col-md-12 col-sm-12 col-xs-12">
+										<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_12.png" alt="" class="img-responsive" width="100%">
+									</div>
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_12.png" alt="" class="img-responsive">
+									</div>
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_12.png" alt="" class="img-responsive">
+									</div>
+								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="right-content">

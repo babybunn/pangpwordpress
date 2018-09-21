@@ -308,7 +308,7 @@ get_header();
 					</div>
 					<div class="col-md-6 hp-news-small-thumb">
 						<div class="row-condensed">
-							<div class="col-md-6">
+							<div class="col-md-6 col-sm-6">
 								<a href="#">
 									<figure>
 										<img src="<?php echo get_template_directory_uri(); ?>/images/img_female_contortionist.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -319,7 +319,7 @@ get_header();
 									</figure>
 								</a>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-sm-6">
 								<a href="#">
 									<figure>
 										<img src="<?php echo get_template_directory_uri(); ?>/images/img_power_drums.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -330,7 +330,7 @@ get_header();
 									</figure>
 								</a>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-sm-6">
 								<a href="#">
 									<figure>
 										<img src="<?php echo get_template_directory_uri(); ?>/images/img_human_puppet.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -341,7 +341,7 @@ get_header();
 									</figure>
 								</a>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-sm-6">
 								<a href="#">
 									<figure class="hp-newacts-link">
 										<img src="<?php echo get_template_directory_uri(); ?>/images/img_be_our_artist.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -376,10 +376,10 @@ get_header();
 						<div class="blogfeed-wrapper">
 							<div class="row-condensed">
 								<article>
-									<div class="col-md-4 col-sm-4">
+									<div class="col-md-4 col-sm-2 col-xs-4">
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_01.png" alt="" class="img-responsive"></a>
 									</div>
-									<div class="col-md-8 col-sm-8">
+									<div class="col-md-8 col-sm-10 col-xs-8">
 										<h3><a href="#">Robots Are Taking Over The Entertainment World!</a></h3>
 										<footer><span class="date">19 March 2016</span></footer>
 									</div>
@@ -388,10 +388,10 @@ get_header();
 
 							<div class="row-condensed">
 								<article>
-									<div class="col-md-4 col-sm-4">
+									<div class="col-md-4 col-sm-2 col-xs-4">
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_02.png" alt="" class="img-responsive"></a>
 									</div>
-									<div class="col-md-8 col-sm-8">
+									<div class="col-md-8 col-sm-10 col-xs-8">
 										<h3><a href="#">Corporate Event Destination Guide: The Canary Islands vs. Balearic Islands</a></h3>
 										<footer><span class="date">18 March 2016</span></footer>
 									</div>
@@ -400,10 +400,10 @@ get_header();
 
 							<div class="row-condensed">
 								<article>
-									<div class="col-md-4 col-sm-4">
+									<div class="col-md-4 col-sm-2 col-xs-4">
 										<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/img_blog_03.png" alt="" class="img-responsive"></a>
 									</div>
-									<div class="col-md-8 col-sm-8">
+									<div class="col-md-8 col-sm-10 col-xs-8">
 										<h3><a href="#">Celebrating 50 Years of The Sound of Music</a></h3>
 										<footer><span class="date">16 March 2016</span></footer>
 									</div>

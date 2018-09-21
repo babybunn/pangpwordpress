@@ -112,7 +112,7 @@ get_header();
 				</div>
 				<div class="main-artists">
 					<div class="row">
-						<div class="col-md-3 col-sm-3 new-acts-box">
+						<div class="col-md-3 col-sm-6 new-acts-box">
 							<a href="#">
 								<figure>
 									<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_01.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -123,7 +123,7 @@ get_header();
 								</figure>
 							</a>
 						</div>
-						<div class="col-md-3 col-sm-3 new-acts-box">
+						<div class="col-md-3 col-sm-6 new-acts-box">
 							<a href="#">
 								<figure>
 									<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_02.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -134,7 +134,7 @@ get_header();
 								</figure>
 							</a>
 						</div>
-						<div class="col-md-3 col-sm-3 new-acts-box">
+						<div class="col-md-3 col-sm-6 new-acts-box">
 							<a href="#">
 								<figure>
 									<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_03.png" alt="Thai Fire Spinner" class="img-responsive">
@@ -145,7 +145,7 @@ get_header();
 								</figure>
 							</a>
 						</div>
-						<div class="col-md-3 col-sm-3 new-acts-box">
+						<div class="col-md-3 col-sm-6 new-acts-box">
 							<a href="#">
 								<figure>
 									<img src="<?php echo get_template_directory_uri(); ?>/images/IMG_artists_04.png" alt="Thai Fire Spinner" class="img-responsive">

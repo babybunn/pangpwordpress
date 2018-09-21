@@ -18,7 +18,7 @@
 				<section class="main-footer segment segment1 space-medium">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6 col-xs-12">
 								<a href="/" class="footer-logo"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/je_logo.png"></a>
 								<div class="footer-navigation">
 									<ul class="nav navbar-nav footer-nav-primary">
@@ -39,7 +39,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6 col-xs-12">
 								<div class="footer-contact">
 									<ul class="fa-ul">
 										<li><span class="fa-li"><span class="icon-base"><i class="fa fa-mobile"></i></span></span><a href="tel:+66856665504">+66 85 666 5504</a></li>
@@ -49,7 +49,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6 col-xs-12">
 								<div class="footer-social">
 									<p class="font-14 accent3">Follow us:</p>
 									<a href="#" target="_blank">
@@ -122,7 +122,7 @@
 
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6 col-xs-12">
 								<div class="footer-subscribe">
 									<h3 class="uppercase font-14 accent4"><strong>Subscribe</strong></h3>
 									<p class="font-14 accent3">Subscribe to our newsletter to be updated about latest news and interesting offers:</p>
@@ -138,10 +138,10 @@
 				<section class="bottom-footer segment segment1 space-small">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8">
+							<div class="col-md-8 col-sm-8 col-xs-12">
 								© 2016 <strong>Jabu Events</strong><span class="line-bottom-footer">|</span>Entertainment and event management
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/Ahead_logo.png" alt="Ahead Design" class="ahead-logo float-right">
 							</div>
 						</div>

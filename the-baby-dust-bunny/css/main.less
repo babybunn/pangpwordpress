@@ -1977,6 +1977,10 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 	margin-bottom: 15px;
 }
 
+.hp-news figure img {
+	width: 100%;
+}
+
 .hp-news figure figcaption {
 	position: absolute;
 	bottom: 0;
@@ -2096,8 +2100,14 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 	margin-bottom: 0;
 }
 
-.blogfeed-wrapper article {
+.hp-blogs .blogfeed-wrapper article {
 	display: table;
+	clear: both;
+	margin-bottom: 20px;
+	width:100%;
+}
+
+.blogfeed-wrapper article {
 	clear: both;
 	margin-bottom: 20px;
 }
@@ -2135,9 +2145,9 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 
 .main-content-overlay {
 	background-color:  rgba(10, 10, 46, 0.9);
-	display: table;
+	display: block;
 	width:100%;
-	padding: 20px 5px;
+	padding: 10px 5px;
 	position:relative;
 }
 
@@ -2359,23 +2369,23 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 }
 
 #thumbs {
-    text-align: center;
-    padding: 40px 0;
+	text-align: center;
+	padding: 40px 0;
 }
 
 #thumbs img {
-    width: 100%;
+	width: 100%;
 }
 
 #thumbs > span {
-    width: 80px;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: border 0.8s;
-    font-size: 0;
+	width: 80px;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: border 0.8s;
+	font-size: 0;
 }
 
 .video-detail-meta-label {
@@ -2785,128 +2795,128 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 }
 
 .field_fileupload{
-    display:block;
-    font-size: 12px;
+	display:block;
+	font-size: 12px;
 }
 
- .field_fileupload .file-select{
-    display:block;
-    color: #f5f5f5;
-    cursor:pointer;
-    height:40px;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    line-height:40px;
-    text-align:left;
-    background:#140c39;
-    overflow:hidden;
-    position:relative;
+.field_fileupload .file-select{
+	display:block;
+	color: #f5f5f5;
+	cursor:pointer;
+	height:40px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	line-height:40px;
+	text-align:left;
+	background:#140c39;
+	overflow:hidden;
+	position:relative;
 }
 
- .field_fileupload .file-select .file-select-button{
-    background:#140c39;
-    padding:0 18px;
-    display:inline-block;
-    height:40px;
-    line-height:40px;
-    float: right;
-    color: #ff028f;
-    text-transform: uppercase;
-    font-size: 14px;
-    border: 1px solid #ff028f;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+.field_fileupload .file-select .file-select-button{
+	background:#140c39;
+	padding:0 18px;
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	float: right;
+	color: #ff028f;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 1px solid #ff028f;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
 }
 
- .field_fileupload .file-select .file-select-name{
-    line-height:40px;
-    display:inline-block;
-    padding:0 10px;
+.field_fileupload .file-select .file-select-name{
+	line-height:40px;
+	display:inline-block;
+	padding:0 10px;
 }
 
- .field_fileupload .file-select:hover{
-    border-color:#34495e;
-    transition:all .2s ease-in-out;
-    -moz-transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
+.field_fileupload .file-select:hover{
+	border-color:#34495e;
+	transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
 }
 
- .field_fileupload .file-select:hover .file-select-button{
-    background:#ff028f;
-    color:#FFFFFF;
-    transition:all .2s ease-in-out;
-    -moz-transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
+.field_fileupload .file-select:hover .file-select-button{
+	background:#ff028f;
+	color:#FFFFFF;
+	transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
 }
- .field_fileupload.active .file-select{
-    border-color:#3fa46a;
-    transition:all .2s ease-in-out;
-    -moz-transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
-}
-
- .field_fileupload.active .file-select .file-select-button{
-    background:#3fa46a;
-    color:#FFFFFF;
-    transition:all .2s ease-in-out;
-    -moz-transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
+.field_fileupload.active .file-select{
+	border-color:#3fa46a;
+	transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
 }
 
- .field_fileupload .file-select input[type=file]{
-    z-index:100;
-    cursor:pointer;
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0;
-    left:0;
-    opacity:0;
-    filter:alpha(opacity=0);
+.field_fileupload.active .file-select .file-select-button{
+	background:#3fa46a;
+	color:#FFFFFF;
+	transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-webkit-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
 }
 
- .field_fileupload .file-select.file-select-disabled{
-    opacity:0.65;
+.field_fileupload .file-select input[type=file]{
+	z-index:100;
+	cursor:pointer;
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	opacity:0;
+	filter:alpha(opacity=0);
 }
 
- .field_fileupload .file-select.file-select-disabled:hover{
-    cursor:default;
-    display:block;
-    border: 2px solid #dce4ec;
-    color: #34495e;
-    cursor:pointer;
-    height:40px;
-    line-height:40px;
-    margin-top:5px;
-    text-align:left;
-    background:#FFFFFF;
-    overflow:hidden;
-    position:relative;
+.field_fileupload .file-select.file-select-disabled{
+	opacity:0.65;
 }
 
- .field_fileupload .file-select.file-select-disabled:hover .file-select-button{
-    background:#dce4ec;
-    color:#666666;
-    padding:0 10px;
-    display:inline-block;
-    height:40px;
-    line-height:40px;
+.field_fileupload .file-select.file-select-disabled:hover{
+	cursor:default;
+	display:block;
+	border: 2px solid #dce4ec;
+	color: #34495e;
+	cursor:pointer;
+	height:40px;
+	line-height:40px;
+	margin-top:5px;
+	text-align:left;
+	background:#FFFFFF;
+	overflow:hidden;
+	position:relative;
 }
 
- .field_fileupload .file-select.file-select-disabled:hover .file-select-name{
-    line-height:40px;
-    display:inline-block;
-    padding:0 10px;
+.field_fileupload .file-select.file-select-disabled:hover .file-select-button{
+	background:#dce4ec;
+	color:#666666;
+	padding:0 10px;
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+}
+
+.field_fileupload .file-select.file-select-disabled:hover .file-select-name{
+	line-height:40px;
+	display:inline-block;
+	padding:0 10px;
 }
 
 .contact-quote .form_wrapper .form_field_checkbox {
-    width:  25%;
-    float:  left;
-    padding-right: 5px;
+	width:  25%;
+	float:  left;
+	padding-right: 5px;
 }
 
 .contact-quote .form_wrapper .form_field ul.field_checkbox_wrapper {
@@ -2920,6 +2930,16 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 
 @media  (max-width: 991px) {
 
+	/** homepage **/
+	.hp-news-small-thumb {
+		padding-top: 8px;
+	}
+	.hp-img-partners {
+		margin: 15px 15px;
+	}
+	.main-footer .footer-contact .fa-ul {
+		margin-left: 30px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -2933,6 +2953,98 @@ nav[role="navigation"] ul > li .dropdown-menu > li > a:hover {
 		margin:auto;
 		text-align:left;
 	}
+	.footer-logo img {
+		margin:5px auto;
+	}
+	.footer-navigation ul {
+		display:table;
+		margin:10px auto;
+		width: auto;
+		float: none;
+		text-align: center;
+	}
+	.main-footer .footer-navigation .nav li + li {
+		border-left: 0;
+	}
+	.hp-banner {
+		min-height: 480px;
+	}
+	.hp-banner h1 {
+		font-size: 21px;
+	}
+	.cat-tabs {
+		width: 100%;
+		text-align: center;
+	}
+	.cat-tabs > li {
+		display: inline-block;
+	}
+	.cat-tabs > li > a {
+		font-size: 16px;
+	}
+	.font-24 {
+		font-size: 18px;
+	}
+	.button-group-blog ul {
+		width: 100%;
+		margin: 0;
+	}
+	.button-group-blog ul > li {
+		display: block;
+		margin-bottom: 10px;
+		margin-left: 0 !important;
+	}
+	.button-group-blog ul > li .btn {
+		width: 100%;
+	}
+	.main-footer .footer-contact .fa-ul {
+		display: table;
+		margin: 0 auto;
+		max-width: 220px;
+		text-align: center;
+	}
+
+	.main-footer .footer-contact .fa-ul span.fa-li {
+		display: none;
+	}
+
+	.main-footer {
+		text-align: center;
+	}
+
+	.bottom-footer {
+	    text-align: center;
+	}
+
+	img.ahead-logo.float-right {
+	    float: none !important;
+	    margin: 5px auto;
+	}
+
+	/**** Innerpage ****/
+
+	.page-title {
+	    font-size: 20px;
+	}
+
+	.main-artists .new-acts-box figcaption h3 {
+	    font-size: 14px;
+	}
+
+	.artist-tag .taglist > li {
+		float: none;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.artist-tag ul.taglist {
+		width: 100%;
+	}
+
+	.artist-tag .taglist > li > a {
+		display: block;
+	}
+
 }
 /****************************Custom CSS***************************/
 
